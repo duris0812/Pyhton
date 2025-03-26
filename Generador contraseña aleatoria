@@ -1,7 +1,7 @@
 import random
 import string
 
-# Función para generar una contraseña aleatoria
+# Funcion para generar una contraseña aleatoria
 def generar_contraseña(longitud=12):
     # Definir los caracteres permitidos: letras, números y caracteres especiales
     caracteres = string.ascii_letters + string.digits + string.punctuation
